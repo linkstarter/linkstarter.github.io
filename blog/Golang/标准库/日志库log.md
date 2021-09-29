@@ -202,6 +202,6 @@ func (l *Logger) formatHeader(buf *[]byte, t time.Time, file string, line int) {
 
 ### 参考
 
-[Go语言标准库log介绍]([Go语言标准库log介绍 | 李文周的博客 (liwenzhou.com)](https://www.liwenzhou.com/posts/Go/go_log/))
+[Go语言标准库log介绍 | 李文周的博客 (liwenzhou.com)](https://www.liwenzhou.com/posts/Go/go_log/)
 
-[Golang官网]([log package - log - pkg.go.dev](https://pkg.go.dev/log))
+[log package - log - pkg.go.dev](https://pkg.go.dev/log)
