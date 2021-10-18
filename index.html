@@ -43,6 +43,16 @@
 </body>
 
 </html>
-<!-- <script src="https://utteranc.es/client.js" repo="linkstarter/linkstarter.github.io" issue-term="pathname"
-        theme="github-light" crossorigin="anonymous" async>
-        </script> -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+    clientID: 'd898b0ede2503f13e295',
+    clientSecret: '6ed24652aea3c6bfa723b8c5de77d57e6f1e34ba',
+    repo: 'linkstarter.github.io',
+    owner: 'linkstarter',
+    admin: ['linkstarter'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+    })
+</script>
